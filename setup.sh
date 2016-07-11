@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt-get --yes --force-yes install vim
 sudo apt-get --yes --force-yes install git git-core
 sudo apt-get --yes --force-yes install tmux
 sudo apt-get --yes --force-yes install screen
