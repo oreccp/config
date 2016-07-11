@@ -697,3 +697,5 @@ PROMPT_COMMAND='__setprompt'
 alias gs="git status"
 alias gl="git log --pretty=format:\"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]\" --decorate --date=short"
 alias gd="git diff"
+
+alias c="clear"
