@@ -15,6 +15,10 @@ rm -rf ~/.bashrc
 ln -s $(pwd)/bashrc ~/.bashrc
 source ~/.bashrc
 
-#Setup tmux
+# Setup tmux
 rm -rf ~/.tmux.conf
 ln -s $(pwd)/tmux.conf ~/.tmux.conf
+
+# Setup vim
+rm -rf ~/.vimrc
+ln -s $(pwd)/vimrc ~/.vimrc

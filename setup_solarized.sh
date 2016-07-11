@@ -4,6 +4,7 @@ wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/mas
 mv dircolors.ansi-dark ~/.dircolors
 eval `dircolors ~/.dircolors`
 
+rm -rf ~/.gnome-terminal-colors-solarized
 git clone https://github.com/sigurdga/gnome-terminal-colors-solarized.git ~/.gnome-terminal-colors-solarized
 cd ~/.gnome-terminal-colors-solarized
 ./set_dark.sh
