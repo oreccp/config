@@ -699,3 +699,4 @@ alias gl="git log --pretty=format:\"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\
 alias gd="git diff"
 
 alias c="clear"
+
