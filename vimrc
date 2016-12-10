@@ -1,4 +1,4 @@
-set nocompatible              " be iMproved, required
+  set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
@@ -35,6 +35,10 @@ filetype plugin indent on
 syntax on
 set encoding=utf-8
 set spell spelllang=en_us
+
+set tabstop=2
+set shiftwidth=2
+set expandtab
 
 highlight clear SpellBad
 highlight SpellBad term=standout ctermfg=1 term=underline cterm=underline
