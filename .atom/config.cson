@@ -29,5 +29,16 @@
       "third_party/**"
       "**/node_modules/*"
     ]
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false

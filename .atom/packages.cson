@@ -1,0 +1,11 @@
+packages: [
+  "busy-signal"
+  "git-time-machine"
+  "intentions"
+  "linter"
+  "linter-pylama"
+  "linter-ui-default"
+  "package-sync"
+  "sort-lines"
+  "vim-mode-plus"
+]
