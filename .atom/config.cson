@@ -1,0 +1,32 @@
+"*":
+  core:
+    closeDeletedFileTabs: true
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".ros"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "bazel-bin"
+      "bazel-out"
+      "bazel-testlogs"
+      "bazel-driving"
+    ]
+    telemetryConsent: "no"
+  editor:
+    fontSize: 13
+  "exception-reporting":
+    userId: "90146769-4cc1-dd61-bacb-022123923552"
+  "fuzzy-finder":
+    ignoredNames: [
+      "**/bazel-bin/**"
+      "**/bazel-out/**"
+      "**/bazel-testlogs/**"
+      "**/.git/**"
+      "**/.ros/**"
+    ]
+  welcome:
+    showOnStartup: false
