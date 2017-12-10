@@ -1,6 +1,7 @@
 "*":
   core:
     closeDeletedFileTabs: true
+    followSymlinks: false
     ignoredNames: [
       ".git"
       ".hg"
@@ -10,10 +11,6 @@
       "._*"
       "Thumbs.db"
       "desktop.ini"
-      "bazel-bin"
-      "bazel-out"
-      "bazel-testlogs"
-      "bazel-driving"
     ]
     telemetryConsent: "no"
   editor:
@@ -23,10 +20,14 @@
   "fuzzy-finder":
     ignoredNames: [
       "**/bazel-bin/**"
+      "**/bazel-driving/**"
       "**/bazel-out/**"
       "**/bazel-testlogs/**"
       "**/.git/**"
       "**/.ros/**"
+      "log_tests/**"
+      "third_party/**"
+      "**/node_modules/*"
     ]
   welcome:
     showOnStartup: false
