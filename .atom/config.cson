@@ -1,6 +1,13 @@
 "*":
+  "atom-ctags":
+    buildTimeout: 1000000
+    cmdArgs: "--exclude=/home/paul/driving/.git --exclude=/home/paul/driving/bazel-bin --exclude=/home/paul/driving/bazel-testlogs --exclude=/home/paul/driving/bazel-driving --exclude=/home/paul/driving/bazel-out --exclude=/home/paul/driving/third_party --exclude=/home/paul/driving/log_tests"
+    disableComplete: true
   core:
     closeDeletedFileTabs: true
+    disabledPackages: [
+      "symbols-view"
+    ]
     followSymlinks: false
     ignoredNames: [
       ".git"
@@ -14,7 +21,7 @@
     ]
     telemetryConsent: "no"
   editor:
-    fontSize: 13
+    fontSize: 12
   "exception-reporting":
     userId: "90146769-4cc1-dd61-bacb-022123923552"
   "fuzzy-finder":
@@ -29,6 +36,8 @@
       "third_party/**"
       "**/node_modules/*"
     ]
+  "linter-ui-default":
+    showPanel: true
   "package-sync":
     createOnChange: true
     forceOverwrite: true

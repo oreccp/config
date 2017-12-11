@@ -1,11 +1,17 @@
 packages: [
+  "ask-stack"
+  "atom-beautify"
+  "atom-ctags"
   "busy-signal"
+  "git-plus"
   "git-time-machine"
+  "Hydrogen"
   "intentions"
   "linter"
   "linter-pylama"
   "linter-ui-default"
   "package-sync"
   "sort-lines"
+  "switch-header-source"
   "vim-mode-plus"
 ]
