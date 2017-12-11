@@ -1,2 +1,12 @@
 'atom-text-editor.vim-mode-plus.insert-mode':
   'j k': 'vim-mode-plus:activate-normal-mode' # jk to escape
+
+'atom-text-editor, body':
+  'ctrl-k': 'window:focus-pane-above'
+  'ctrl-j': 'window:focus-pane-below'
+  'ctrl-h': 'window:focus-pane-on-left'
+  'ctrl-l': 'window:focus-pane-on-right'
+
+'body atom-text-editor.autocomplete-active':
+  'ctrl-k': 'autocomplete-plus:move-up'
+  'ctrl-j': 'autocomplete-plus:move-down'

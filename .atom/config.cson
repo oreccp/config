@@ -36,8 +36,7 @@
       "third_party/**"
       "**/node_modules/*"
     ]
-  "linter-ui-default":
-    showPanel: true
+  "linter-ui-default": {}
   "package-sync":
     createOnChange: true
     forceOverwrite: true

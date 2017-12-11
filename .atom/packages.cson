@@ -2,6 +2,7 @@ packages: [
   "ask-stack"
   "atom-beautify"
   "atom-ctags"
+  "atom-fuzzy-grep"
   "busy-signal"
   "git-plus"
   "git-time-machine"
