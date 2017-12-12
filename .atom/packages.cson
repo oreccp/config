@@ -8,6 +8,8 @@ packages: [
   "git-time-machine"
   "Hydrogen"
   "intentions"
+  "language-bazel"
+  "language-protobuf"
   "linter"
   "linter-pylama"
   "linter-ui-default"

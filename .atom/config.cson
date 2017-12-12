@@ -36,6 +36,9 @@
       "third_party/**"
       "**/node_modules/*"
     ]
+  "git-plus":
+    general:
+      _analyticsUserId: "6482e8bf-e890-4334-90bf-84f2be905a80"
   "linter-ui-default": {}
   "package-sync":
     createOnChange: true
