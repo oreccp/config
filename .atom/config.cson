@@ -20,6 +20,10 @@
       "desktop.ini"
     ]
     telemetryConsent: "no"
+    themes: [
+      "solarized-dark-ui"
+      "solarized-dark-syntax"
+    ]
   editor:
     fontSize: 12
   "exception-reporting":
@@ -50,6 +54,25 @@
     leftEditorColor: "red"
     rightEditorColor: "green"
     scrollSyncType: "Vertical + Horizontal"
+  "theme-switch":
+    darkProfiles: [
+      "solarized-dark-ui solarized-dark-syntax"
+      "atom-dark-ui atom-dark-syntax"
+      "one-dark-ui one-dark-syntax"
+    ]
+    lightProfiles: [
+      "solarized-light-ui solarized-light-syntax"
+      "atom-light-ui atom-light-syntax"
+      "one-light-ui one-light-syntax"
+    ]
+    profiles: [
+      "solarized-dark-ui solarized-dark-syntax"
+      "solarized-light-ui solarized-light-syntax"
+      "atom-dark-ui atom-dark-syntax"
+      "one-dark-ui one-dark-syntax"
+      "atom-light-ui atom-light-syntax"
+      "one-light-ui one-light-syntax"
+    ]
   "tree-view":
     hideVcsIgnoredFiles: true
   welcome:
