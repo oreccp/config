@@ -36,10 +36,11 @@
       "third_party/**"
       "**/node_modules/*"
     ]
-  "git-plus":
-    general:
-      _analyticsUserId: "6482e8bf-e890-4334-90bf-84f2be905a80"
   "linter-ui-default": {}
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
   "package-sync":
     createOnChange: true
     forceOverwrite: true
