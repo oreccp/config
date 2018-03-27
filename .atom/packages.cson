@@ -38,4 +38,5 @@ packages: [
   "switch-header-source"
   "theme-switch"
   "vim-mode-plus"
+  "vim-mode-plus-move-to-symbols"
 ]

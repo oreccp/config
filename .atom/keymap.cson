@@ -13,6 +13,19 @@
 'body atom-text-editor.autocomplete-active':
   'ctrl-k': 'autocomplete-plus:move-up'
   'ctrl-j': 'autocomplete-plus:move-down'
+  'pageup': 'autocomplete-plus:page-up'
+  'pagedown': 'autocomplete-plus:page-down'
+  'home': 'autocomplete-plus:move-to-top'
+  'end': 'autocomplete-plus:move-to-bottom'
+
+'body atom-text-editor.atom-ctags-active':
+  'ctrl-k': 'atom-ctags:move-up'
+  'ctrl-j': 'atom-ctags:move-down'
 
 '.vim-mode-plus:not(.insert-mode)':
   ':': 'command-palette:toggle'
+
+'.editor':
+  'ctrl-t': 'atom-ctags:go-to-declaration'
+  'ctrl-T': 'atom-ctags:return-from-declaration'
+  'ctrl-r': 'atom-ctags:toggle-file-symbols'
