@@ -24,8 +24,32 @@
 
 '.vim-mode-plus:not(.insert-mode)':
   ':': 'command-palette:toggle'
+  'g f':      'open-this:here'
+  'ctrl-w f': 'open-this:split-down'
+  'ctrl-w F': 'open-this:split-right'
+  '-': 'choose-pane:start'
+  'm m': 'choose-pane:focus-last-focused'
 
 '.editor':
   'ctrl-t': 'atom-ctags:go-to-declaration'
   'ctrl-T': 'atom-ctags:return-from-declaration'
   'ctrl-r': 'atom-ctags:toggle-file-symbols'
+
+'.markdown-preview':
+  '-': 'choose-pane:start'
+  'm m': 'choose-pane:focus-last-focused'
+
+# For tree-view
+'.tree-view':
+  '-': 'choose-pane:start'
+  'm m': 'choose-pane:focus-last-focused'
+
+# Map '-', so that I can focus last-focused element by typing `-` twice.
+'atom-text-editor#choose-pane-editor':
+  '-': 'choose-pane:last-focused'
+
+'body.platform-linux':
+  'ctrl-k k': 'pane:split-down-and-copy-active-item'
+  'ctrl-k j': 'pane:split-up-and-copy-active-item'
+  'ctrl-k h': 'pane:split-left-and-copy-active-item'
+  'ctrl-k l': 'pane:split-right-and-copy-active-item'

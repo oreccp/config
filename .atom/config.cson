@@ -26,8 +26,8 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "solarized-dark-ui"
-      "solarized-dark-syntax"
+      "atom-material-ui"
+      "atom-material-syntax"
     ]
   editor:
     fontSize: 12
@@ -45,6 +45,8 @@
       "third_party/**"
       "**/node_modules/*"
     ]
+  "git-blame":
+    columnWidth: 256
   "linter-ui-default": {}
   minimap:
     plugins:
@@ -82,6 +84,7 @@
       "atom-light-ui atom-light-syntax"
       "one-light-ui one-light-syntax"
     ]
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
