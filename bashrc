@@ -677,6 +677,7 @@ PROMPT_COMMAND='__setprompt'
 
 # Vi in shell
 set -o vi
+bind '"jk":vi-movement-mode'
 
 # Git
 alias gs="git status"
