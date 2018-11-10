@@ -1,0 +1,90 @@
+"*":
+  "atom-ctags":
+    buildTimeout: 1000000
+    cmdArgs: "--links=no --exclude=*.git --exclude=bazel-bin/* --exclude=bazel-out/* --exclude=bazel-driving/* --exclude=bazel-testlog/*"
+    disableComplete: true
+  "autocomplete-plus":
+    useCoreMovementCommands: false
+  core:
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "symbols-view"
+    ]
+    followSymlinks: false
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".ros"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+    ]
+    packagesWithKeymapsDisabled: [
+      "atom-ctags"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    fontSize: 12
+  "exception-reporting":
+    userId: "90146769-4cc1-dd61-bacb-022123923552"
+  "fuzzy-finder":
+    ignoredNames: [
+      "**/bazel-bin/**"
+      "**/bazel-driving/**"
+      "**/bazel-out/**"
+      "**/bazel-testlogs/**"
+      "**/.git/**"
+      "**/.ros/**"
+      "log_tests/**"
+      "third_party/**"
+      "**/node_modules/*"
+    ]
+  "git-blame":
+    columnWidth: 256
+  "linter-ui-default": {}
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  navigate:
+    f1: "http://devdocs.io/#q=&searchterm"
+    f10: "https://duckduckgo.com/?q=&searchterm"
+    f6: "http://www.bing.com/search?q=&searchterm"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
+  "theme-switch":
+    darkProfiles: [
+      "solarized-dark-ui solarized-dark-syntax"
+      "atom-dark-ui atom-dark-syntax"
+      "one-dark-ui one-dark-syntax"
+    ]
+    lightProfiles: [
+      "solarized-light-ui solarized-light-syntax"
+      "atom-light-ui atom-light-syntax"
+      "one-light-ui one-light-syntax"
+    ]
+    profiles: [
+      "solarized-dark-ui solarized-dark-syntax"
+      "solarized-light-ui solarized-light-syntax"
+      "atom-dark-ui atom-dark-syntax"
+      "one-dark-ui one-dark-syntax"
+      "atom-light-ui atom-light-syntax"
+      "one-light-ui one-light-syntax"
+    ]
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

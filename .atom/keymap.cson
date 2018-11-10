@@ -1,0 +1,55 @@
+'.command-palette atom-text-editor,
+.fuzzy-finder atom-text-editor':
+  'ctrl-k': 'core:move-up'
+  'ctrl-j': 'core:move-down'
+
+'atom-text-editor.vim-mode-plus.insert-mode':
+  'j k': 'vim-mode-plus:activate-normal-mode' # jk to escape
+
+'atom-text-editor, body':
+  'ctrl-h': 'window:focus-pane-on-left'
+  'ctrl-l': 'window:focus-pane-on-right'
+
+'body atom-text-editor.autocomplete-active':
+  'ctrl-k': 'autocomplete-plus:move-up'
+  'ctrl-j': 'autocomplete-plus:move-down'
+  'pageup': 'autocomplete-plus:page-up'
+  'pagedown': 'autocomplete-plus:page-down'
+  'home': 'autocomplete-plus:move-to-top'
+  'end': 'autocomplete-plus:move-to-bottom'
+
+'body atom-text-editor.atom-ctags-active':
+  'ctrl-k': 'atom-ctags:move-up'
+  'ctrl-j': 'atom-ctags:move-down'
+
+'.vim-mode-plus:not(.insert-mode)':
+  ':': 'command-palette:toggle'
+  'g f':      'open-this:here'
+  'ctrl-w f': 'open-this:split-down'
+  'ctrl-w F': 'open-this:split-right'
+  '-': 'choose-pane:start'
+  'm m': 'choose-pane:focus-last-focused'
+
+'.editor':
+  'ctrl-t': 'atom-ctags:go-to-declaration'
+  'ctrl-T': 'atom-ctags:return-from-declaration'
+  'ctrl-r': 'atom-ctags:toggle-file-symbols'
+
+'.markdown-preview':
+  '-': 'choose-pane:start'
+  'm m': 'choose-pane:focus-last-focused'
+
+# For tree-view
+'.tree-view':
+  '-': 'choose-pane:start'
+  'm m': 'choose-pane:focus-last-focused'
+
+# Map '-', so that I can focus last-focused element by typing `-` twice.
+'atom-text-editor#choose-pane-editor':
+  '-': 'choose-pane:last-focused'
+
+'body.platform-linux':
+  'ctrl-k k': 'pane:split-down-and-copy-active-item'
+  'ctrl-k j': 'pane:split-up-and-copy-active-item'
+  'ctrl-k h': 'pane:split-left-and-copy-active-item'
+  'ctrl-k l': 'pane:split-right-and-copy-active-item'
